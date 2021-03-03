@@ -9,6 +9,8 @@ class TestCase1(unittest.TestCase):
         self.assertEqual(LP.LeapYear(2000),"2000 is a leap year")
     def test2(self):
         self.assertEqual(LP.LeapYear(1700),"1700 is not a leap year")
+    def test3(self):
+        self.assertEqual(LP.LeapYear(1600), "1600 is a leap year")
 
 if __name__ == "__main__":
     unittest.main()
