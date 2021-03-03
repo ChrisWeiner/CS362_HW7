@@ -6,7 +6,7 @@ import unittest
 
 class TestCase1(unittest.TestCase):
     def test1(self):
-        self.assertEqual(LP,"2000 is a leap year")
+        self.assertEqual(LP.LeapYear(2000),"2000 is a leap year")
 
 if __name__ == "__main__":
     unittest.main()
